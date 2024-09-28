@@ -1,0 +1,23 @@
+#calculator {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 350px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+#display {
+  background-color: lightgray;
+  text-align: end;
+  font-size: 60px;
+  flex: 1 300px;
+}
+button {
+  flex: 1 75px;
+}
